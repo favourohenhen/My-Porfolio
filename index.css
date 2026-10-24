@@ -1,10 +1,21 @@
 /* Reset and Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+--header-font: "Space Grotesk", sans-serif;
+--body-font: "Manrope", sans-serif;
+--main-bg-color: #0a0d0f;
+--primary-text-color: #f4f7f5;
+--supporting-text-color: #98a3a2 ;
+--button: #2fffd5;
+--highligts: #b8ff3d;
 
+}
 body {
     font-family: 'Arial', sans-serif;
     background-color: #1a1a1a;
