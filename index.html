@@ -20,12 +20,14 @@
   </head>
 
   <body>
-    <header class="site-header">
+    <header class="site-header ">
       <div class="container nav-wrap">
         <a class="brand" href="#home">Favour Ohenhen</a>
 
-        <nav aria-label="Main navigation">
-          <ul>
+        <nav aria-label="Main navigation" id="header-nav">
+          <img src="./images/icon-close.svg" onclick="closeBtn()" class="closebtn" alt="close nav-menu button icon">
+          <ul class="list-items">
+            
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
@@ -40,7 +42,7 @@
           rel="noreferrer"
           >Let's Talk</a
         >
-        <button type="button" aria-label="Open navigation menu" class="hamburger">☰</button>
+        <button type="button" aria-label="Open navigation menu" class="hamburger" onclick="toggleMenu()">☰</button>
       </div>
     </header>
 
@@ -134,7 +136,7 @@
           </div>
         </div>
         <p class="ongoing">
-          Currently exploring: React, UI/UX design, and better frontend
+          Currently exploring: UI/UX design and better frontend
           development practices.
         </p>
       </section>
@@ -248,5 +250,6 @@
         <p>Designed and Built with care..</p>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
