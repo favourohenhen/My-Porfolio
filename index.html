@@ -20,15 +20,19 @@
   </head>
 
   <body>
-    <header class="site-header ">
+    <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#home">Favour Ohenhen</a>
+        <a class="brand" href="#">Favour Ohenhen</a>
 
         <nav aria-label="Main navigation" id="header-nav">
-         
           <ul class="list-items" id="nav-menu">
-             <img src="./images/icon-close.svg" onclick="closeBtn()" class="closebtn" alt="close nav-menu button icon">
-            <li><a href="#home">Home</a></li>
+            <img
+              src="./images/icon-close.svg"
+              onclick="closeBtn()"
+              class="closebtn"
+              alt="close nav-menu button icon"
+            />
+            <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -42,8 +46,15 @@
           rel="noreferrer"
           >Let's Talk</a
         >
-        <button type="button" aria-label="Open Navigation"
-            aria-expanded="false" class="hamburger" onclick="toggleMenu()">☰</button>
+        <button
+          type="button"
+          aria-label="Open Navigation"
+          aria-expanded="false"
+          class="hamburger"
+          onclick="toggleMenu()"
+        >
+          ☰
+        </button>
       </div>
     </header>
 
@@ -58,9 +69,7 @@
             experimenting, and turning what I learn into projects.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#work"
-              >View Projects</a
-            >
+            <a class="button primary" href="#work">View Projects</a>
             <a class="button secondary" href="#contact">Contact Me</a>
           </div>
         </div>
@@ -137,8 +146,8 @@
           </div>
         </div>
         <p class="ongoing">
-          Currently exploring: UI/UX design and better frontend
-          development practices.
+          Currently exploring: UI/UX design and better frontend development
+          practices.
         </p>
       </section>
       <section
@@ -152,37 +161,55 @@
         </div>
 
         <div class="work-grid">
-          <div class="archive-card">
-            <div class="project-img">
-              <img src="" alt="" />
+          <article class="archive-card">
+            <div class="archive-preview">
+              <img
+                src="./images/Porfolio_frontend-projects.png"
+                alt="A screenshot of my frontend project gallery"
+              />
             </div>
-            <article class="work-card">
+            <div class="work-card">
+              <p class="archive-label">Collection 01</p>
               <h3>Responsive interfaces, built one challenge at a time.</h3>
               <p>
                 A collection of frontend projects where I practise HTML, CSS,
                 responsive layouts, and turning designs into working interfaces.
               </p>
-              <a href="frontend-projects/index.html"
+              <div class="archive-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive design</span>
+              </div>
+              <a class="archive-link" href="frontend-projects/index.html"
                 >Explore Frontend Projects ↗</a
               >
-            </article>
-          </div>
-
-          <div class="archive-card">
-            <div class="project-img">
-              <img src="" alt="" />
             </div>
-            <article class="work-card">
+          </article>
+
+          <article class="archive-card">
+            <div class="archive-preview">
+              <img
+                src="./images/dice%20(1).png"
+                alt="A screenshot of the Dice Game, part of my JavaScript games collection"
+              />
+            </div>
+            <div class="work-card">
+              <p class="archive-label">Collection 02</p>
               <h3>Small games. Real JavaScript practice.</h3>
               <p>
                 Interactive experiments where I practise programming logic, DOM
                 manipulation, and connecting game rules to the interface.
               </p>
-              <a href="https://github.com/" target="_blank" rel="noreferrer"
-                >Explore JavaScript Games ↗</a
-              >
-            </article>
-          </div>
+              <div class="archive-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a class="archive-link" href="./js.-game/index.html">
+                Explore JavaScript Games ↗
+              </a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -203,7 +230,7 @@
             </p>
           </article>
           <div class="contact-link">
-            <a class="button link" href="mailto:hello@example.com"
+            <a class="button link" href="mailto:Favourosayuwamen931@gmail.com"
               >Send Email ↗</a
             >
           </div>
