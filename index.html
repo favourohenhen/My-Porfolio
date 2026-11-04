@@ -26,12 +26,20 @@
 
         <nav aria-label="Main navigation" id="header-nav">
           <ul class="list-items" id="nav-menu">
-            <img
-              src="./images/icon-close.svg"
-              onclick="closeBtn()"
-              class="closebtn"
-              alt="close nav-menu button icon"
-            />
+            <li>
+              <button
+                type="button"
+                class="closebtn"
+                aria-label="Close Navigation"
+                onclick="closeBtn()"
+              >
+                <img
+                  src="./images/icon-close.svg"
+                  class="close-icon"
+                  alt=""
+                />
+              </button>
+            </li>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
@@ -41,9 +49,7 @@
 
         <a
           class="nav-link"
-          href="https://github.com/"
-          target="_blank"
-          rel="noreferrer"
+          href="#contact"
           >Let's Talk</a>
         <button
           type="button"
@@ -115,7 +121,7 @@
         aria-labelledby="skills-title"
       >
         <div class="section-heading">
-          <p class="eyebrow">✦ my Toolkit</p>
+          <h2 class="eyebrow" id="skills-title">✦ my Toolkit</h2>
         </div>
         <div class="skill-list">
           <div class="set">
@@ -188,8 +194,8 @@
           <article class="archive-card">
             <div class="archive-preview">
               <img
-                src="./images/dice%20(1).png"
-                alt="A screenshot of the Dice Game, part of my JavaScript games collection"
+                src="./images/Porfolio_js.-game.png"
+                alt="A screenshot of my JavaScript games collection"
               />
             </div>
             <div class="work-card">

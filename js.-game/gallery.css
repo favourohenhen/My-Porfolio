@@ -26,6 +26,38 @@ body {
   text-align: center;
 }
 
+.back-home {
+  display: inline-flex;
+  min-height: 2.75rem;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #d7e2df;
+  border-radius: 999px;
+  color: #1f2933;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease-out,
+    border-color 180ms ease-out,
+    color 180ms ease-out;
+}
+
+.back-home:hover,
+.back-home:focus-visible {
+  border-color: #007f73;
+  background: #007f73;
+  color: #fff;
+}
+
+.back-home:focus-visible {
+  outline: 3px solid #007f73;
+  outline-offset: 3px;
+}
+
 .project-title {
   margin: 0 0 0.75rem;
   font-size: clamp(2.5rem, 6vw, 4rem);
@@ -185,7 +217,8 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .project-card,
-  .project-name a {
+  .project-name a,
+  .back-home {
     transition: none;
   }
 
