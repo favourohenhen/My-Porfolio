@@ -14,6 +14,6 @@ function toggleMenu() {
   }
 }
 function closeBtn() {
-  navMenu.style.left = "-60%";
+  navMenu.style.left = "-100%";
   menuOpen = false;
 }
